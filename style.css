@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px
+}
+h1 {
+    text-align: center;
+}
+
+#taskName, #priority, button, label {
+    margin: 5px;
+}

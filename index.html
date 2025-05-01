@@ -2,18 +2,23 @@
 <html>
 <head>
   <title>Task Manager</title>
+  <!--Linked CSS File-->
   <link rel="stylesheet" href="style.css">
+  <!--Linked JS File-->
   <script src="script.js" defer></script>
 </head>
 <body>
   <h1>Task Manager</h1>
   <input id="taskName" placeholder="Task Name">
+  <!--Created the priority drop down menu -->
   <select id="priority">
     <option value="High">High</option>
     <option value="Medium">Medium</option>
     <option value="Low">Low</option>
   </select>
+  <!--Created the checkbox for whether its important or not-->
   <label><input type="checkbox" id="important"> Important</label>
+  <!--Created the button for adding a task-->
   <button id="addTask">Add Task</button>
   <div id="taskmanager"></div>
 </body>
